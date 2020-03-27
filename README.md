@@ -1,1 +1,2 @@
 # Lempel-Ziv-Welch (LZW) Compression Algorithm
+The LZW algorithm is based on a dictionary structure. All characters in the ASCII table are added to this dictionary structure. Then the text starts to be scanned. A temporary string is created and added to an unknown string until it is obtained. When an unknown string is encountered, it is added to this dictionary and continues from the last character.
